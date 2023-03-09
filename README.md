@@ -67,5 +67,5 @@
 **"52120"**  
 というデータが送られると溶断を開始し、その後はConidae_ESP32と全く同じ動作をします。  
 ## サーバー・データベースのURL
-[サーバー](https://docs.google.com/document/d/1RpMjHWsSF7Ac74QMa1fZhfSOrmiUf2NCvFHljLfUnbI/edit?usp=sharing)  ←こちらはサーバー側のコードのテキストデータとなりますので、これをGoogle Apps Scriptにコピペしてください。
-[データベース](https://docs.google.com/spreadsheets/d/1S9cln5S1FHNmxY2MARpbRo55B0uS7WgbZ1usYiUxpLU/edit?usp=sharing) ←こちらは閲覧専用なので、ご自身のドライブにコピーをお願いします。
+[サーバー](https://docs.google.com/document/d/1RpMjHWsSF7Ac74QMa1fZhfSOrmiUf2NCvFHljLfUnbI/edit?usp=sharing)←こちらはサーバー側のコードのテキストデータとなりますので、これをGoogle Apps Scriptにコピペしてください。   
+[データベース](https://docs.google.com/spreadsheets/d/1S9cln5S1FHNmxY2MARpbRo55B0uS7WgbZ1usYiUxpLU/edit?usp=sharing)←こちらは閲覧専用なので、ご自身のドライブにコピーをお願いします。
