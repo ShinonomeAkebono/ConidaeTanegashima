@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">KotlinDae2nd</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="btnStart">START</string>
+    <string name="textUser">USER NAME</string>
+    <string name="spnBluetooth">SelectDevice</string>
+    <string name="textMode">SELECT MODE</string>
+    <string name="txtName">YOUR NAME</string>
+    <string name="edtNAME">NAME</string>
+    <string name="textBlue">Select Bluetooth Device</string>
+    <string name="textEditLatLong">Set goal by manual</string>
+    <string name="textOr">or</string>
+    <string name="btnSelectByMap">SELECT BY MAP</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="title_activity_commander_map">CommanderMapActivity</string>
+</resources>

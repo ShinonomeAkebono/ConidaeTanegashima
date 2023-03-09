@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServerConidaeFaceActivity">
+
+    <ImageView
+        android:id="@+id/imageSkin"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/imgLeftEye"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="80dp"
+        android:rotation="90"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageSkin"
+        app:srcCompat="@drawable/nomalleft" />
+
+    <ImageView
+        android:id="@+id/imgRightEye"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="80dp"
+        android:rotation="90"
+        app:layout_constraintBottom_toBottomOf="@+id/imageSkin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLeftEye"
+        app:srcCompat="@drawable/nomalleft" />
+
+    <ImageView
+        android:id="@+id/imgMouth"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="250dp"
+        android:rotation="90"
+        app:layout_constraintBottom_toBottomOf="@+id/imageSkin"
+        app:layout_constraintEnd_toEndOf="@+id/imageSkin"
+        app:layout_constraintTop_toTopOf="@+id/imageSkin"
+        app:srcCompat="@drawable/smile" />
+</androidx.constraintlayout.widget.ConstraintLayout>
